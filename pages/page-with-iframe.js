@@ -9,7 +9,7 @@ export default () => {
     </Head>
 
     <h1>Page with iframe</h1>
-    <iframe src={'http://localhost:3001/event/1'} width="90%" height="600px">
+    <iframe src={'http://localhost:3001/2/events?limit=10'} width="90%" height="600px">
     </iframe>
   </div>
 }
