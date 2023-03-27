@@ -16,7 +16,9 @@ export default function Home() {
           <br />
           Read <Link href="/posts/first-post">this page!</Link>
           <br />
-          Read <Link href="/page-with-list">Page with iframe</Link>
+          Read <Link href="/page-with-list">Page with list</Link>
+          <br />
+          Read <Link href="/page-with-list">Page with event detail</Link>
         </h1>
 
         <p className={styles.description}>
