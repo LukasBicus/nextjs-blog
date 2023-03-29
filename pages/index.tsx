@@ -26,6 +26,8 @@ export default function Home({allPostsData}: {
           Read <Link href="/page-with-list">Page with list</Link>
           <br/>
           Read <Link href="/page-with-event">Page with event detail</Link>
+          <br/>
+          Read <Link href="/page-with-list-production">Page with event detail on production</Link>
         </p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
