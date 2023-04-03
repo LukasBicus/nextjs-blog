@@ -1,8 +1,8 @@
 window.onload = function () {
   console.log('running the request')
   // fetch('https://shop.entradio.sk/api/graphql', {
-  fetch('http://localhost:4000/api/graphql', {
-    method: 'POST',
+  fetch('http://localhost:4000/graphql', {
+    method: 'GET',
     headers: {
       'Content-Type': 'application/json'
     },
@@ -14,7 +14,9 @@ window.onload = function () {
       `,
       variables: {}
     })
-  }).then((res) => res.json())
+  }).then((res) => {
+
+    return res.json()})
     .then((result) => handleLoginSuccess(result))
     .catch((error) => console.log(error))
 }
