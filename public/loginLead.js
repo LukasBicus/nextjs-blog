@@ -25,7 +25,7 @@ function handleLoginSuccess(result) {
   console.log(result)
 
   // const parentEventDiv = document.getElementById('iframe-shop-entradio-event')
-  // const parentCartDiv = document.getElementById('iframe-shop-entradio-cart')
+  const parentListDiv = document.getElementById('iframe-shop-entradio-list')
 
   // const iframeEventElement = document.createElement('iframe')
   // // iframeEventElement.src = 'https://shop.entradio.sk/event/9'
@@ -34,10 +34,9 @@ function handleLoginSuccess(result) {
   // iframeEventElement.height = '600px'
   // parentEventDiv.appendChild(iframeEventElement)
   //
-  // const iframeCartElement = document.createElement('iframe')
-  // // iframeCartElement.src = 'https://shop.entradio.sk/2/cart'
-  // iframeCartElement.src = 'http://localhost:3001/2/events'
-  // iframeCartElement.width = '100%'
-  // iframeCartElement.height = '600px'
-  // parentCartDiv.appendChild(iframeCartElement)
+  const iframeListElement = document.createElement('iframe')
+  iframeListElement.src = 'https://shop.entradio.sk/2/events'
+  iframeListElement.width = '100%'
+  iframeListElement.height = '600px'
+  parentListDiv.appendChild(iframeListElement)
 }

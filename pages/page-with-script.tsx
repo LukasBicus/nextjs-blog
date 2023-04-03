@@ -12,8 +12,8 @@ export default () => {
       <div id="iframe-shop-entradio-event">
         Iframe div 'iframe-shop-entradio-event'
       </div>
-      <div id="iframe-shop-entradio-cart">
-        Iframe div 'iframe-shop-entradio-cart'
+      <div id="iframe-shop-entradio-list">
+        Iframe div 'iframe-shop-entradio-list'
       </div>
     </section>
   </Layout>
