@@ -1,7 +1,7 @@
 window.onload = function () {
   console.log('running the request')
   // fetch('https://shop.entradio.sk/api/graphql', {
-  fetch('http://localhost:3001/api/graphql', {
+  fetch('http://localhost:4000/api/graphql', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
